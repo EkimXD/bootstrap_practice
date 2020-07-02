@@ -1,5 +1,10 @@
+:root{
+    --dark_color:#3a3d42;
+}
+
+
 .jumbotron{
-    background-color: skyblue;
+    background-color: var(--dark_color);
     color:white;
 }
 
@@ -15,7 +20,7 @@ p.card-text{
 }
 
 footer{
-    background-color: skyblue;
+    background-color: var(--dark_color);
     color: white;
     padding: 16px;
 }
