@@ -15,18 +15,46 @@
     />
 
     <!-- css -->
-    <link
-      rel="stylesheet"
-      href="/css/main.css"
-    />
-
+    <link rel="stylesheet" href="/css/main.css" />
+<link rel="stylesheet" href="/node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
     <title>Hello, world!</title>
   </head>
   <body>
-    <div class="jumbotron">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Hoteles</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav mr-auto">
+          <a class="nav-item nav-link active" href="#"
+            >Home</a
+          >
+          <a class="nav-item nav-link" href="about.html">About</a>
+          <a class="nav-item nav-link" href="#">Pricing</a>
+          <a class="nav-item nav-link" href="#">Bloc</a>
+        </div>
+      </div>
+    </nav>
+
+    <!--  -->
+    <div class="jumbotron top-space">
       <h1>Hoteles</h1>
     </div>
     <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">Home</li>
+        </ol>
+      </nav>
       <div class="d-flex flex-wrap">
         <div class="col-md-4">
           <div class="card">
@@ -36,7 +64,7 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
                 numquam.
               </p>
-              <button class="btn btn-dark">Ir</button>
+              <button class="btn btn-dark">Ir <span class="oi oi-chevron-right"></span></button>
             </div>
           </div>
         </div>
@@ -48,7 +76,7 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
                 numquam.
               </p>
-              <button class="btn btn-dark">Ir</button>
+              <button class="btn btn-dark">Ir <span class="oi oi-chevron-right"></span></button>
             </div>
           </div>
         </div>
@@ -60,113 +88,149 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
                 numquam.
               </p>
-              <button class="btn btn-dark">Ir</button>
+              <button class="btn btn-dark">Ir <span class="oi oi-chevron-right"></span></button>
             </div>
           </div>
         </div>
         <div class="col-md-3">
           <div class="card">
-            <img class="card-img-top" src="/images/hotel_image.jpeg" alt="Imagen de un hotel">
+            <img
+              class="card-img-top"
+              src="/images/hotel_image.jpeg"
+              alt="Imagen de un hotel"
+            />
             <div class="card-body">
               <h2 class="card-title">Hotel</h2>
               <p class="card-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
                 numquam.
               </p>
-              <button class="btn btn-dark">Reservar</button>
+              <button class="btn btn-dark">Reservar <span class="oi oi-chevron-right"></span></button>
             </div>
           </div>
         </div>
         <div class="col-md-3">
           <div class="card">
-            <img class="card-img-top" src="/images/hotel_image.jpeg" alt="Imagen de un hotel">
+            <img
+              class="card-img-top"
+              src="/images/hotel_image.jpeg"
+              alt="Imagen de un hotel"
+            />
             <div class="card-body">
               <h2 class="card-title">Hotel</h2>
               <p class="card-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
                 numquam.
               </p>
-              <button class="btn btn-dark">Reservar</button>
+              <button class="btn btn-dark">Reservar <span class="oi oi-chevron-right"></span></button>
             </div>
           </div>
         </div>
         <div class="col-md-3">
           <div class="card">
-            <img class="card-img-top" src="/images/hotel_image.jpeg" alt="Imagen de un hotel">
+            <img
+              class="card-img-top"
+              src="/images/hotel_image.jpeg"
+              alt="Imagen de un hotel"
+            />
             <div class="card-body">
               <h2 class="card-title">Hotel</h2>
               <p class="card-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
                 numquam.
               </p>
-              <button class="btn btn-dark">Reservar</button>
+              <button class="btn btn-dark">Reservar <span class="oi oi-chevron-right"></span></button>
             </div>
           </div>
         </div>
         <div class="col-md-3">
           <div class="card">
-            <img class="card-img-top" src="/images/hotel_image.jpeg" alt="Imagen de un hotel">
+            <img
+              class="card-img-top"
+              src="/images/hotel_image.jpeg"
+              alt="Imagen de un hotel"
+            />
             <div class="card-body">
               <h2 class="card-title">Hotel</h2>
               <p class="card-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio reiciendis eum totam fugit? Hic dolorem corrupti quia quas aliquam, provident qui quam nulla perferendis eum, dolores amet at odio delectus.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
-                numquam.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Distinctio reiciendis eum totam fugit? Hic dolorem corrupti quia
+                quas aliquam, provident qui quam nulla perferendis eum, dolores
+                amet at odio delectus. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Eius, numquam.
               </p>
-              <button class="btn btn-dark">Reservar</button>
+              <button class="btn btn-dark">Reservar <span class="oi oi-chevron-right"></span></button>
             </div>
           </div>
         </div>
         <div class="col-md-3">
           <div class="card">
-            <img class="card-img-top" src="/images/hotel_image.jpeg" alt="Imagen de un hotel">
-            <div class="card-body">
-              <h2 class="card-title">Hotel</h2>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
-                numquam.
-              </p>
-              <button class="btn btn-dark">Reservar</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img class="card-img-top" src="/images/hotel_image.jpeg" alt="Imagen de un hotel">
-            <div class="card-body">
-              <h2 class="card-title">Hotel</h2>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
-                numquam.
-              </p>
-              <button class="btn btn-dark">Reservar</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img class="card-img-top" src="/images/hotel_image.jpeg" alt="Imagen de un hotel">
+            <img
+              class="card-img-top"
+              src="/images/hotel_image.jpeg"
+              alt="Imagen de un hotel"
+            />
             <div class="card-body">
               <h2 class="card-title">Hotel</h2>
               <p class="card-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
                 numquam.
               </p>
-              <button class="btn btn-dark">Reservar</button>
+              <button class="btn btn-dark">Reservar <span class="oi oi-chevron-right"></span></button>
             </div>
           </div>
         </div>
         <div class="col-md-3">
           <div class="card">
-            <img class="card-img-top" src="/images/hotel_image.jpeg" alt="Imagen de un hotel">
+            <img
+              class="card-img-top"
+              src="/images/hotel_image.jpeg"
+              alt="Imagen de un hotel"
+            />
             <div class="card-body">
               <h2 class="card-title">Hotel</h2>
               <p class="card-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio reiciendis eum totam fugit? Hic dolorem corrupti quia quas aliquam, provident qui quam nulla perferendis eum, dolores amet at odio delectus.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
                 numquam.
               </p>
-              <button class="btn btn-dark">Reservar</button>
+              <button class="btn btn-dark">Reservar <span class="oi oi-chevron-right"></span></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="/images/hotel_image.jpeg"
+              alt="Imagen de un hotel"
+            />
+            <div class="card-body">
+              <h2 class="card-title">Hotel</h2>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
+                numquam.
+              </p>
+              <button class="btn btn-dark">Reservar <span class="oi oi-chevron-right"></span></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="/images/hotel_image.jpeg"
+              alt="Imagen de un hotel"
+            />
+            <div class="card-body">
+              <h2 class="card-title">Hotel</h2>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Distinctio reiciendis eum totam fugit? Hic dolorem corrupti quia
+                quas aliquam, provident qui quam nulla perferendis eum, dolores
+                amet at odio delectus. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Eius, numquam.
+              </p>
+              <button class="btn btn-dark">Reservar <span class="oi oi-chevron-right"></span></button>
             </div>
           </div>
         </div>
@@ -184,11 +248,10 @@
         <div class="col-sm-4 d-flex flex-column align-items-center">
           <address>
             <h4>Contactos</h4>
-            <p>direccionEjemplo</p>
-            <p>+123456789</p> 
-            <p>correo@correo.com</p>
+            <p><span class="oi oi-home"></span> direccionEjemplo</p>
+            <p><span class="oi oi-phone"></span> +123456789</p>
+            <p><span class="oi oi-info"></span> correo@correo.com</p>
           </address>
-          
         </div>
         <div class="col-sm-4 d-flex flex-column align-items-center">
           <h4>Otros</h4>
@@ -199,6 +262,7 @@
       </div>
     </footer>
     <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="/node_modules/popper.js/dist/popper.min.js"></script>
   </body>
 </html>
