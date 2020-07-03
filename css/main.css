@@ -4,8 +4,15 @@
 
 
 .jumbotron{
-    background-color: var(--dark_color);
+    background-image: url('/images/hotel1.jpg');
+    background-size: 100%;
+    background-position: center;
     color:white;
+    margin-top: 40px;
+}
+
+.jumbotron2{
+    height: 300px;
 }
 
 .card{
@@ -34,6 +41,6 @@ a{
     width: 100%;
 }
 
-.top-space{
-    margin-top: 30px;
+.badge{
+    font-size: 15px;
 }
