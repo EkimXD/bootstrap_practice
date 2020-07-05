@@ -55,47 +55,70 @@
             <li class="breadcrumb-item active" aria-current="page">Precios</li>
         </ol>
       </nav>
-      <h1>Precios</h1>
-      <div class="table-responsive">
-        <table class="table">
-          <thead class="table-primary">
-            <tr>
-              <th scope="col">Calificacion</th>
-              <th scope="col">Quito</th>
-              <th scope="col">Guayaquil</th>
-              <th scope="col">Cuenca</th>
-              <th scope="col">Quevedo</th>
-              <th scope="col">Loja</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><span class="oi oi-star"></span></td>
-              <td>$300</td>
-              <td>$400</td>
-              <td>$200</td>
-              <td>$300</td>
-              <td>$400</td>
-            </tr>
-            <tr>
-              <td><span class="oi oi-star"><span class="oi oi-star"></span></td>
-              <td>$300</td>
-              <td>$400</td>
-              <td>$200</td>
-              <td>$300</td>
-              <td>$400</td>
-            </tr>
-            <tr>
-              <td><span class="oi oi-star"><span class="oi oi-star"><span class="oi oi-star"></span></td>
-              <td>$300</td>
-              <td>$400</td>
-              <td>$200</td>
-              <td>$300</td>
-              <td>$400</td>
-            </tr>
-          </tbody>
-        </table>
+
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="precios-tab" data-toggle="tab" href="#precios" role="tab" aria-controls="precios" aria-selected="true">Precios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="precios" role="tabpanel" aria-labelledby="home-tab">
+          <div class="table-responsive">
+            <table class="table">
+              <thead class="table-primary">
+                <tr>
+                  <th scope="col">Calificacion</th>
+                  <th scope="col">Quito</th>
+                  <th scope="col">Guayaquil</th>
+                  <th scope="col">Cuenca</th>
+                  <th scope="col">Quevedo</th>
+                  <th scope="col">Loja</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><span class="oi oi-star"></span></td>
+                  <td>$300</td>
+                  <td>$400</td>
+                  <td>$200</td>
+                  <td>$300</td>
+                  <td>$400</td>
+                </tr>
+                <tr>
+                  <td><span class="oi oi-star"><span class="oi oi-star"></span></td>
+                  <td>$300</td>
+                  <td>$400</td>
+                  <td>$200</td>
+                  <td>$300</td>
+                  <td>$400</td>
+                </tr>
+                <tr>
+                  <td><span class="oi oi-star"><span class="oi oi-star"><span class="oi oi-star"></span></td>
+                  <td>$300</td>
+                  <td>$400</td>
+                  <td>$200</td>
+                  <td>$300</td>
+                  <td>$400</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          <h1>Algo grande va aqui!</h1>
+        </div>
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+          <h1>Algo grande va aqui!</h1>
+        </div>
       </div>
+    
+      
       
     </div>
     <footer>
@@ -123,7 +146,8 @@
       </div>
     </footer>
     <script src="/node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="/node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
   </body>
 </html>
