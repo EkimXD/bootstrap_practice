@@ -143,10 +143,12 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
                 numquam.
               </p>
-              <button type="button"
-              class="btn btn-dark"
-              data-toggle="modal"
-              data-target="#exampleModal">
+              <button
+                type="button"
+                class="btn btn-dark"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
                 Reservar <span class="oi oi-chevron-right"></span>
               </button>
             </div>
@@ -160,17 +162,24 @@
               alt="Imagen de un hotel"
             />
             <div class="card-body">
-              <h2 class="card-title">
+              <h2
+                data-toggle="tooltip"
+                data-placement="top"
+                title="Aqui hay una promo, aprovechala!"
+                class="card-title"
+              >
                 Hotel <span class="badge badge-primary">New</span>
               </h2>
               <p class="card-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
                 numquam.
               </p>
-              <button type="button"
-              class="btn btn-dark"
-              data-toggle="modal"
-              data-target="#exampleModal">
+              <button
+                type="button"
+                class="btn btn-dark"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
                 Reservar <span class="oi oi-chevron-right"></span>
               </button>
             </div>
@@ -189,10 +198,12 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
                 numquam.
               </p>
-              <button type="button"
-              class="btn btn-dark"
-              data-toggle="modal"
-              data-target="#exampleModal">
+              <button
+                type="button"
+                class="btn btn-dark"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
                 Reservar <span class="oi oi-chevron-right"></span>
               </button>
             </div>
@@ -217,10 +228,12 @@
                 amet at odio delectus. Lorem ipsum dolor sit amet consectetur
                 adipisicing elit. Eius, numquam.
               </p>
-              <button type="button"
-              class="btn btn-dark"
-              data-toggle="modal"
-              data-target="#exampleModal">
+              <button
+                type="button"
+                class="btn btn-dark"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
                 Reservar <span class="oi oi-chevron-right"></span>
               </button>
             </div>
@@ -239,10 +252,12 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
                 numquam.
               </p>
-              <button type="button"
-              class="btn btn-dark"
-              data-toggle="modal"
-              data-target="#exampleModal">
+              <button
+                type="button"
+                class="btn btn-dark"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
                 Reservar <span class="oi oi-chevron-right"></span>
               </button>
             </div>
@@ -261,10 +276,12 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
                 numquam.
               </p>
-              <button type="button"
-              class="btn btn-dark"
-              data-toggle="modal"
-              data-target="#exampleModal">
+              <button
+                type="button"
+                class="btn btn-dark"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
                 Reservar <span class="oi oi-chevron-right"></span>
               </button>
             </div>
@@ -283,10 +300,12 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
                 numquam.
               </p>
-              <button type="button"
-              class="btn btn-dark"
-              data-toggle="modal"
-              data-target="#exampleModal">
+              <button
+                type="button"
+                class="btn btn-dark"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
                 Reservar <span class="oi oi-chevron-right"></span>
               </button>
             </div>
@@ -384,7 +403,9 @@
               >
                 Cerrar
               </button>
-              <button type="button" class="margin-left-10 btn btn-primary">Reservar</button>
+              <button type="button" class="margin-left-10 btn btn-primary">
+                Reservar
+              </button>
             </div>
           </div>
         </div>
@@ -417,5 +438,10 @@
     <script src="/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="/node_modules/popper.js/dist/popper.min.js"></script>
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
   </body>
 </html>
